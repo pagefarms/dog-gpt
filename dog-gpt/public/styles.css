@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    cursor: url('https://firebasestorage.googleapis.com/v0/b/dog-gtp.appspot.com/o/image%202dog_cursor.png?alt=media&token=6310a60e-f75e-405e-9f58-dad840e1e802'), auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.chat-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chat-history {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+.message {
+    margin-bottom: 1rem;
+}
+
+.user-message {
+    font-weight: bold;
+}
+
+.message-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+.submit-btn:focus {
+    outline: none;
+}
+
+.bot-message-content {
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover,
+input[type="submit"]:hover,
+a:hover {
+    cursor: url('https://firebasestorage.googleapis.com/v0/b/dog-gtp.appspot.com/o/image%201dog_cursor_hover.png?alt=media&token=7ec5b8ca-5098-4a37-81a6-9b624e8a056a'), auto;
+}
